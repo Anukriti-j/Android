@@ -15,7 +15,14 @@ cd <foldername> switch to current folder
 git status
 git add: to take the chnages to staging 
 git commit: finally save the chnages to take to remote repo
-cd folder name : to chnaging the folder to current path
-if we run commit command wihtout staging the chnages or adding the changes , they will not be commited
-only those changes are commited that are staged
-commit saves the chnages in local system only not on remote
+staging area: get the changes prepared wihtout saving to remote 
+command to stage the chnages
+git add <filename>
+commit. snaping of changes that are made and save them
+untracked status = new file
+modified status = changes made in existing file
+
+git log command to show commits - summary of logs with author name
+git show <commit id> details of commit
+git push origin main - main is the branch and origin means the branch from which we pulled the data
+git push -u origin main  - -u means setting upstream , then it will always psuhed into main
