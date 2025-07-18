@@ -26,3 +26,6 @@ git log command to show commits - summary of logs with author name
 git show <commit id> details of commit
 git push origin main - main is the branch and origin means the branch from which we pulled the data
 git push -u origin main  - -u means setting upstream , then it will always psuhed into main
+ git branch branchname // to create a new branch
+ git switch branchname // to move to another branch
+git switch -c branchname //creating a branch and switching to it
