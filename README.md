@@ -37,3 +37,9 @@ resolving conflicts , suppose having chnage sin same file in two branches and th
 git show / git log 
 git pull origin main // taking latest chnges from known branch that are already in the system from remote //merging all the chnages automatically to current ccode
 git fetch   to take all the branches from remote //only download chnegs and not merge it automatically to be done manually
+git remote  // we can see remote we have , for now we have origin
+git remote add <remotename>
+git remote add than remote link
+git remote remove and name of remote
+git remote rename currentremote name then newname
+
