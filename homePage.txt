@@ -1,1 +1,2 @@
 home page created
+home page updated for homePage
