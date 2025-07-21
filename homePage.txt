@@ -1,2 +1,6 @@
 home page created
-home page updated for main
+<<<<<<< HEAD
+home page updated 
+=======
+home page updated 
+>>>>>>> homePage
