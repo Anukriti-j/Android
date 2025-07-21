@@ -1,6 +1,2 @@
 home page created
-<<<<<<< HEAD
 home page updated 
-=======
-home page updated 
->>>>>>> homePage
