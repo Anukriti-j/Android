@@ -35,3 +35,5 @@ to merge the branch first switch to main becox we want to merge in that only
 than write git merge branchname // the branch we want to merge or pull from
 resolving conflicts , suppose having chnage sin same file in two branches and they are getting merged , this is done manuallyq
 git show / git log 
+git pull origin main // taking latest chnges from known branch that are already in the system from remote //merging all the chnages automatically to current ccode
+git fetch   to take all the branches from remote //only download chnegs and not merge it automatically to be done manually
