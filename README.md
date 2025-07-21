@@ -29,3 +29,9 @@ git push -u origin main  - -u means setting upstream , then it will always psuhe
  git branch branchname // to create a new branch
  git switch branchname // to move to another branch
 git switch -c branchname //creating a branch and switching to it
+git merge // pull changes from one branch to another'
+git merge branchname
+to merge the branch first switch to main becox we want to merge in that only
+than write git merge branchname // the branch we want to merge or pull from
+resolving conflicts , suppose having chnage sin same file in two branches and they are getting merged , this is done manuallyq
+git show / git log 
