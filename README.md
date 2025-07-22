@@ -44,10 +44,11 @@ git remote remove and name of remote
 git remote rename currentremote name then newname
 
 git reset  //go one commit behind our current commit 
---soft    // changes still present in staging area HEAD ~1 tilt one says to go back to one commit 
---mixed    // default selection of git when we do git reset // put back them to modified files present status chnages not staged anymore
+--soft    // changes still present in staging area HEAD ~1 tilt one says to go back to one commit , can see staged and unstaged changes separately 
+--mixed  git reset --mixed HEAD~1  // default selection of git when we do git reset // put back them to modified files present status chnages not staged anymore
 --hard  //every chnges gets removed even from staging area 
 // HEAD ~ 2 means go back by 2 commits and work to reset them
+after reseting any commit from local,
 error while trying to push the chnges to remote is commits head are on diff page ,
 so we will try to forcefully push the chnges
 git push --force origin main
