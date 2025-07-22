@@ -48,4 +48,7 @@ git reset  //go one commit behind our current commit
 --mixed    // default selection of git when we do git reset // put back them to modified files present status chnages not staged anymore
 --hard  //every chnges gets removed even from staging area 
 // HEAD ~ 2 means go back by 2 commits and work to reset them
+error while trying to push the chnges to remote is commits head are on diff page ,
+so we will try to forcefully push the chnges
+git push --force origin main
 git revert
