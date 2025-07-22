@@ -52,4 +52,7 @@ after reseting any commit from local,
 error while trying to push the chnges to remote is commits head are on diff page ,
 so we will try to forcefully push the chnges
 git push --force origin main
-git revert
+git revert // fixing error while keeping chnges in history  , revert make new commit and remove the chnages and store them in history
+git revert <commit id> // head ~2 means , keep upto 2 commit before it 1 and 0 remove them
+so in id it will kepp upto that commit id and reverted back to it
+
