@@ -43,3 +43,9 @@ git remote add than remote link
 git remote remove and name of remote
 git remote rename currentremote name then newname
 
+git reset  //go one commit behind our current commit 
+--soft    // changes still present in staging area HEAD ~1 tilt one says to go back to one commit 
+--mixed    // default selection of git when we do git reset // put back them to modified files present status chnages not staged anymore
+--hard  //every chnges gets removed even from staging area 
+// HEAD ~ 2 means go back by 2 commits and work to reset them
+git revert
