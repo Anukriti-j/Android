@@ -53,3 +53,5 @@ error while trying to push the chnges to remote is commits head are on diff page
 so we will try to forcefully push the chnges
 git push --force origin main
 git revert
+git stash // save these chnages for later
+git stash apply chnages
