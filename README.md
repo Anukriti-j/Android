@@ -35,3 +35,4 @@ to merge the branch first switch to main becox we want to merge in that only
 than write git merge branchname // the branch we want to merge or pull from
 resolving conflicts , suppose having chnage sin same file in two branches and they are getting merged , this is done manuallyq
 git show / git log 
+git checkout --filename // remove the stash chnages
